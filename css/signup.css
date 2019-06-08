@@ -1,0 +1,38 @@
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body{
+    background-color:#34495E;
+}
+.center{
+    position:absolute;
+    display:block;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.center{
+    width:500px;
+    height:900px;
+    background-color: whitesmoke;
+    border-radius:5px;
+}
+
+.form-center{
+    position:absolute;
+    display: block;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+input[type="email"]{
+    width:400px;
+}
+
+.otp a{
+	text-decoration:none;
+	color:white;
+}
